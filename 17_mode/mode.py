@@ -11,3 +11,9 @@ def mode(nums):
         >>> mode([2, 2, 3, 3, 2])
         2
     """
+    max = 0
+    for num in nums:
+        curr = nums.count(num)
+        if max < curr:
+            sol = num
+    return sol

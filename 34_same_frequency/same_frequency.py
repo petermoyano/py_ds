@@ -10,3 +10,8 @@ def same_frequency(num1, num2):
         >>> same_frequency(1212, 2211)
         True
     """
+    set1 = set(str(num1))
+    set2 = set(str(num2))
+    if set1 ^ set2:
+        return False
+    return True    

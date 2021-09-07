@@ -7,3 +7,6 @@ def product(a, b):
         >>> product(2, -2)
         -4
     """
+    print(a*b)
+    return a*b
+product(11,5)
